@@ -46,7 +46,7 @@ def run_case(case_id: str, no_gui: bool = False):
         return False
 
     print("\n" + "=" * 70)
-    print(f" ▶ {case_info['name']}")
+    print(f" > {case_info['name']}")
     print(f"   {case_info['description']}")
     print("=" * 70)
 

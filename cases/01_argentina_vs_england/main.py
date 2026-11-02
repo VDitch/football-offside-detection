@@ -240,7 +240,7 @@ def detect_pitch_lines(image_path, output_path_tracking, output_path_lines, show
 
     cv2.addWeighted(overlay, 0.5, final_img, 0.5, 0, final_img)
     
-        import os
+    import os
     os.makedirs(os.path.dirname(os.path.abspath(output_path_lines)), exist_ok=True)
     os.makedirs(os.path.dirname(os.path.abspath(output_path_tracking)), exist_ok=True)
     

@@ -278,7 +278,7 @@ def detect_pitch_lines(image_path, output_path_tracking, output_path_lines, show
             dark_blue = (139, 0, 0)
             cv2.line(final_img, (x1, y1), (x2, y2), dark_blue, 4) 
 
-        import os
+    import os
     os.makedirs(os.path.dirname(os.path.abspath(output_path_lines)), exist_ok=True)
     os.makedirs(os.path.dirname(os.path.abspath(output_path_tracking)), exist_ok=True)
     
