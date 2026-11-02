@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model weights (Large files > 100MB; Ultralytics YOLO auto-downloads on first run)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Environment & Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Legacy / working directories (preserved on local disk, excluded from repository)
+Argentina England mundial 2026/
+Man city vs Man U 2022 premier/
+real betis Pao 2025 europa/
+Stavropoulos_Diploma_Thesis_v13_ez_vs_final.pdf
+archive/
